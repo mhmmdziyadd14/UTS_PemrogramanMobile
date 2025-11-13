@@ -44,7 +44,8 @@ Kontak
 Kalkulator
 
 
-<img width="540" height="1156" alt="image" src="https://github.com/user-attachments/assets/028ce1c9-2897-442f-950a-8721fd2e1855" />
+<img width="540" height="1152" alt="image" src="https://github.com/user-attachments/assets/6e88da79-78ee-4ea4-883c-f97820d7796a" />
+
 
 
 
