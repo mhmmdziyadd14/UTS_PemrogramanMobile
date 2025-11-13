@@ -21,25 +21,36 @@ Aplikasi ini didesain menggunakan tema warna kustom "Plume Wine" (#5E4074) dan "
 
 
 Splash Screen
+
 <img width="540" height="1156" alt="image" src="https://github.com/user-attachments/assets/b3a336f5-1658-4e6e-9020-13c9396dd292" />
 
+
+
 Halaman Biodata
+
+
 <img width="540" height="1155" alt="image" src="https://github.com/user-attachments/assets/56d6ac99-eacd-432a-98ac-fa7ff4b56bb2" />
 
 
 
 
-
 Kontak 
+
+
 <img width="540" height="1156" alt="image" src="https://github.com/user-attachments/assets/a901cd0a-0ca1-439e-bf32-667f83a2b82d" />
 
 
 
 Kalkulator
 
+
 <img width="540" height="1156" alt="image" src="https://github.com/user-attachments/assets/028ce1c9-2897-442f-950a-8721fd2e1855" />
 
+
+
 Berita 
+
+
 
 <img width="540" height="1158" alt="image" src="https://github.com/user-attachments/assets/bca653cc-a3b0-427c-90d1-0551df91949d" />
 
