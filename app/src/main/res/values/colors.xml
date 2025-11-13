@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palet Warna "Plume Wine" & "Linen Cloud" -->
+    <color name="plume_wine">#624074</color>
+    <color name="linen_cloud">#F7F9EC</color>
+
+    <!-- Warna Tambahan untuk Tema -->
+    <color name="plume_wine_dark">#4A335D</color> <!-- Varian lebih gelap untuk Status Bar -->
+    <color name="text_on_dark">#F7F9EC</color> <!-- Teks (Linen) di atas Latar (Plume) -->
+    <color name="text_on_light">#5E4074</color> <!-- Teks (Plume) di atas Latar (Linen) -->
+
+    <!-- Warna default -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_disabled">#9E9E9E</color>
+</resources>

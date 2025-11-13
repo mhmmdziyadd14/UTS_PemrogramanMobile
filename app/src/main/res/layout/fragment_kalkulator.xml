@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9EC"
+    tools:context=".KalkulatorFragment">
+
+
+<TextView
+android:id="@+id/tv_header_kalkulator"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Kalkulator"
+android:textSize="20sp"
+android:textStyle="bold"
+
+
+    android:background="#5E4074"
+    android:textColor="#F7F9EC"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <!-- 1. Tampilan Hasil (Display) -->
+<TextView
+android:id="@+id/tv_result"
+android:layout_width="match_parent"
+android:layout_height="100dp"
+android:background="@drawable/calc_display_background"
+android:gravity="end|center_vertical"
+android:padding="16dp"
+android:text="0"
+android:textColor="#F7F9EC"
+android:textSize="48sp"
+android:layout_margin="8dp"
+
+
+    app:layout_constraintTop_toBottomOf="@id/tv_header_kalkulator"
+
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- 2. GRID LAYOUT (Tombol-tombol) -->
+<androidx.gridlayout.widget.GridLayout
+android:id="@+id/gridLayout"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:padding="8dp"
+app:layout_constraintTop_toBottomOf="@id/tv_result"
+app:layout_constraintBottom_toBottomOf="parent"
+app:rowCount="5"
+app:columnCount="4">
+
+<!-- Baris 1: C, √, x², / -->
+<Button style="@style/CalcButton.Gray" android:id="@+id/btn_clear" android:text="C"/>
+<Button style="@style/CalcButton.Gray" android:id="@+id/btn_sqrt" android:text="√"/>
+<Button style="@style/CalcButton.Gray" android:id="@+id/btn_sqr" android:text="x²"/>
+<Button style="@style/CalcButton.Operator" android:id="@+id/btn_divide" android:text="/"/>
+
+<!-- Baris 2: 7, 8, 9, * -->
+<Button style="@style/CalcButton.Digit" android:id="@+id/btn_7" android:text="7"/>
+<Button style="@style/CalcButton.Digit" android:id="@+id/btn_8" android:text="8"/>
+<Button style="@style/CalcButton.Digit" android:id="@+id/btn_9" android:text="9"/>
+<Button style="@style/CalcButton.Operator" android:id="@+id/btn_multiply" android:text="*"/>
+
+<!-- Baris 3: 4, 5, 6, - -->
+<Button style="@style/CalcButton.Digit" android:id="@+id/btn_4" android:text="4"/>
+<Button style="@style/CalcButton.Digit" android:id="@+id/btn_5" android:text="5"/>
+<Button style="@style/CalcButton.Digit" android:id="@+id/btn_6" android:text="6"/>
+<Button style="@style/CalcButton.Operator" android:id="@+id/btn_minus" android:text="-"/>
+
+<!-- Baris 4: 1, 2, 3, + -->
+<Button style="@style/CalcButton.Digit" android:id="@+id/btn_1" android:text="1"/>
+<Button style="@style/CalcButton.Digit" android:id="@+id/btn_2" android:text="2"/>
+<Button style="@style/CalcButton.Digit" android:id="@+id/btn_3" android:text="3"/>
+<Button style="@style/CalcButton.Operator" android:id="@+id/btn_plus" android:text="+"/>
+
+<!-- Baris 5: 0, ., = -->
+<Button style="@style/CalcButton.Digit" android:id="@+id/btn_0" android:text="0"/>
+<Button style="@style/CalcButton.Digit" android:id="@+id/btn_dot" android:text="."/>
+<Button
+    style="@style/CalcButton.Equal"
+    android:id="@+id/btn_equals"
+    android:text="="
+    app:layout_columnSpan="2"
+    app:layout_gravity="fill_horizontal" />
+
+</androidx.gridlayout.widget.GridLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

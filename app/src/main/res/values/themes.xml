@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    ===============================================================
+    TEMA UTAMA APLIKASI (Untuk AndroidManifest.xml)
+    ===============================================================
+    -->
+
+    <!-- TEMA UTAMA: Latar Putih (#F7F9EC), Aksen Ungu (#5E4074) -->
+    <style name="Theme.UTS" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Warna brand utama (Ungu) -->
+        <item name="colorPrimary">#5E4074</item>
+        <item name="colorPrimaryVariant">#4A335D</item> <!-- Ungu lebih gelap -->
+        <item name="colorOnPrimary">#F7F9EC</item> <!-- Teks Putih -->
+
+        <!-- Warna Latar Belakang Utama Aplikasi (Putih) -->
+        <item name="android:windowBackground">#F7F9EC</item>
+
+        <!-- Warna Teks Default (Teks Ungu di Latar Putih) -->
+        <item name="android:textColor">#5E4074</item>
+
+        <!-- Warna brand sekunder -->
+        <item name="colorSecondary">#5E4074</item>
+        <item name="colorSecondaryVariant">#4A335D</item>
+        <item name="colorOnSecondary">#F7F9EC</item>
+
+        <!-- Warna Status bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.UTS_Pemrograman_Mobile_152023198" parent="android:Theme.Material.Light.NoActionBar" />
+
+
+    <!--
+    ===============================================================
+    STYLE UNTUK KALKULATOR (Tema Ungu dan Putih)
+    ===============================================================
+    -->
+
+    <!-- Style dasar tombol kalkulator (dari kode asli Anda) -->
+    <style name="CalcButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <!-- Memperbaiki style weight yang error sebelumnya -->
+        <item name="layout_columnWeight">1</item>
+        <item name="layout_rowWeight">1</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:insetTop">4dp</item>
+        <item name="android:insetBottom">4dp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="cornerRadius">32dp</item>
+    </style>
+
+    <!-- Style Tombol Angka (Digit): Latar Ungu, Teks Putih -->
+    <style name="CalcButton.Digit" parent="CalcButton">
+        <item name="backgroundTint">#5E4074</item>
+        <item name="android:textColor">#F7F9EC</item>
+    </style>
+
+    <!-- Style Tombol Fungsi (Gray/Asli): Latar Putih, Teks Ungu -->
+    <style name="CalcButton.Gray" parent="CalcButton">
+        <item name="backgroundTint">#F7F9EC</item>
+        <item name="android:textColor">#5E4074</item>
+        <item name="strokeColor">#5E4074</item> <!-- Stroke Ungu -->
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <!-- Style Tombol Operator: Latar Putih, Teks Ungu -->
+    <style name="CalcButton.Operator" parent="CalcButton.Gray">
+        <!-- Menggunakan style yang sama dengan Gray -->
+    </style>
+
+    <!-- Style Tombol Sama Dengan (Equal): Latar Putih, Teks Ungu -->
+    <style name="CalcButton.Equal" parent="CalcButton.Gray">
+        <!-- Menggunakan style yang sama dengan Gray -->
+    </style>
+
+
+    <!--
+    ===============================================================
+    STYLE UNTUK CUACA
+    ===============================================================
+    -->
+    <style name="WeatherDetailText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#F7F9EC</item> <!-- Teks Putih (di dalam Card Ungu) -->
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

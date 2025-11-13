@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File ini disimpan di res/color/nav_item_color.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+      Warna saat item terpilih/aktif (Putih - Linen Cloud)
+      Ini agar ikon terlihat JELAS di atas latar UNGU BottomNav Anda
+    -->
+    <item android:color="#F7F9EC" android:state_checked="true" />
+
+    <!--
+      Warna saat item tidak terpilih/non-aktif (Abu-abu muda)
+      Ini agar ikon tetap terlihat di atas latar UNGU, tapi tidak terlalu menonjol
+    -->
+    <item android:color="#BDBDBD" android:state_checked="false" />
+
+</selector>

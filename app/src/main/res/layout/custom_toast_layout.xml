@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File ini disimpan di res/layout/custom_toast_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_toast_background"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_toast_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan Toast Di Sini"
+        android:textStyle="bold"
+        android:textColor="#5E4074" /> <!-- Teks Ungu (Sesuai Permintaan) -->
+
+</LinearLayout>

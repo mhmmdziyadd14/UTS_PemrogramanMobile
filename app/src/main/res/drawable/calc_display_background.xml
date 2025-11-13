@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Latar belakang display (Ungu) -->
+    <solid android:color="#5E4074" />
+
+    <corners android:radius="8dp" />
+
+    <!-- Border (Putih) -->
+    <stroke
+        android:width="2dp"
+        android:color="#F7F9EC" />
+</shape>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File ini disimpan di res/drawable/custom_toast_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Latar Putih (Linen Cloud) -->
+    <solid android:color="#F7F9EC" />
+
+    <!-- Outline Ungu (Plume Wine) -->
+    <stroke
+        android:width="2dp"
+        android:color="#5E4074" />
+
+    <!-- Sudut yang lebih bulat untuk Toast -->
+    <corners android:radius="12dp" />
+</shape>
