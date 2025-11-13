@@ -49,12 +49,18 @@ Kalkulator
 
 
 
-Berita 
+Cuaca
 
 
 
 <img width="540" height="1158" alt="image" src="https://github.com/user-attachments/assets/bca653cc-a3b0-427c-90d1-0551df91949d" />
 
+
+Berita
+
+
+
+<img width="540" height="1200" alt="image" src="https://github.com/user-attachments/assets/0e67a792-699d-41fb-a031-4c047d4ca166" />
 
 
 
